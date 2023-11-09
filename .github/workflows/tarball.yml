@@ -7,6 +7,9 @@ on:
       GITLAB_TRIGGER_TOKEN:
         required: true
 
+permissions:
+  contents: read
+
 jobs:
   tarball:
     runs-on: ubuntu-20.04
